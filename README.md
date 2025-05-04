@@ -3,8 +3,6 @@
 
 This repo contains the models and the implementation code for the EMNLP 2023 Main paper [Understanding the Role of Input Token Characters in Language Models: How Does Information Loss Affect Performance?](https://aclanthology.org/2023.emnlp-main.563/).
 
-## Pre-trained models
-
 
 ## Pre-training
 ### 1. Required packages installation
