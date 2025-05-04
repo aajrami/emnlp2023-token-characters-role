@@ -136,7 +136,7 @@ python run_glue.py \
 ### 4. Fine-tunining on SuperGLUE
 Similar to fine-tuning on GLUE, the model can be fine-tuned on SuperGLUE using the following command:
 ```
-python sg_5.py \
+python run_sg.py \
 --model_path=/path/to/pre-trained/weights/ \
 --task_name=<task> \
 --tokenizer_name=<tokenizer_name> \
@@ -164,7 +164,7 @@ python sg_5.py \
 
 To fine-tuning the models on COPA task, you can run the following command:
 ```
-python sg_copa.py \
+python run_sg_copa.py \
 --model_path=/path/to/pre-trained/weights/ \
 --task_name=copa \
 --tokenizer_name=<tokenizer_name> \
